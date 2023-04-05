@@ -1,0 +1,51 @@
+void setup() {
+  size(800, 400);
+  background(0);
+}
+void draw() {
+  background(0);
+  println("X:");
+  println(mouseX);
+  println("Y:");
+  println(mouseY);
+  noStroke();
+  fill(150);
+  rect(221,161,100,5);
+  fill(300,200,0);
+  square(435,200,50);
+  fill(0);
+  square(450,200,40);
+  fill(50);
+  square(460,200,30);
+  fill(300,200,50);
+  rect(469,202,30,100);
+  line(396,203,450,203);
+  fill(50);
+  circle(297,165,25);
+  circle(313,166,40);
+  rect(313,146,90,40);
+  fill(300, 200, 0);
+  rect( 362, 132, 150, 70);
+  fill(100);
+  noStroke();
+  rect(341, 147, 20, 38);
+  circle(351, 147, 20);
+  circle(351, 185, 20);
+  fill(300, 200, 0);
+  rect(357, 137, 10, 59);
+  circle(362, 137, 10);
+  circle(362, 197, 10);
+  fill(0);
+  square(478,132,35);
+  fill(300,200,0);
+  circle(478,166,68);
+  fill(100);
+  stroke(0);
+  rect(452,138,40,10);
+  rect(452,154,50,10);
+  rect(452,170,50,10);
+  circle(370,147,5);
+  circle(419,147,5);
+  circle(370,188,5);
+  circle(419,188,5);
+}
